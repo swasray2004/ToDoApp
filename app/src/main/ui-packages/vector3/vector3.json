@@ -1,0 +1,76 @@
+{
+  "name": "vector3",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "flZqDfG0ML7qTnen5A8Rmu",
+    "node": "10:3",
+    "version": "6729191597",
+    "component-id": "d4db39808c1b98351e1d4aad2b382739bdbac6d3"
+  },
+  "default": "Vector3",
+  "documentation": "p\\",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Vector3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 213.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 139.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Vector3",
+      "size": {
+        "width": 924.0,
+        "height": 490.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

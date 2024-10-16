@@ -1,0 +1,77 @@
+{
+  "name": "get_things_done_",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "flZqDfG0ML7qTnen5A8Rmu",
+    "node": "11:6",
+    "version": "6729191597",
+    "component-id": "470eec3c6469f2bbcdef1a7d695752eb7872421a"
+  },
+  "default": "Get things done.",
+  "documentation": "text",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Get things done."
+      }
+    ],
+    "modes": {
+      "Get things done.": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Get things done."
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Get things done.",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Get things done.",
+            "overflow": "visible",
+            "text-align-vertical": "center",
+            "text-size": 20.0,
+            "line-height": 1.4479999542236328,
+            "typeface": "Darumadrop One"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Get things done.",
+      "size": {
+        "width": 137.0,
+        "height": 29.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

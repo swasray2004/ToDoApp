@@ -1,0 +1,66 @@
+{
+  "name": "working_place",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "flZqDfG0ML7qTnen5A8Rmu",
+    "node": "10:5",
+    "version": "6729191597",
+    "component-id": "c32a468f3d9f225277f4395b8cb2462701ff58ab"
+  },
+  "default": "Working place",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Working place"
+      }
+    ],
+    "modes": {
+      "Working place": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Working place"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Working place",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "image-content": "working_place.png",
+            "scale": "contain"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Working place",
+      "size": {
+        "width": 322.0,
+        "height": 290.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
